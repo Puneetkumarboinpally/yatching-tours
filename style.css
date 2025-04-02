@@ -10,6 +10,8 @@ h2{
     color:#b0b0b8;
     font-size: 1.4 rem;
 }
+
+/*this is the navigation css*/
 nav{
     position:fixed;
     top:0;
@@ -50,6 +52,8 @@ nav a:hover{
     color:#1b1b20;
     border-bottom: 2px solid #e6e6e6;
 }
+
+/*this is the header css*/
 .header-section{
     
     background-image: url(images/yatch2.jpg);
@@ -99,6 +103,8 @@ nav a:hover{
     color:#e6e6e6;
     text-decoration: none;
 }
+
+/*this is the middle section css*/
 .section-content{
     background-color: rgb(255,255,255,0.05);
     border-radius: 8px;
@@ -120,3 +126,43 @@ nav a:hover{
     color:#e6e6e6;
     line-height: 1.6;
 }
+
+/*this is the footer css*/
+footer{
+    background-color: rgba(50,50,60,0.95);
+    padding:40px;
+    color:#e6e6e6;
+}
+.footer-content{
+    text-align: center;
+    max-width: 1200px;
+    margin:0;
+}
+.footer-links{
+    list-style: none;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color:#e6e6e6;
+}
+.footer-links a:hover{
+    color:aqua;
+    border-bottom:2px solid #e6e6e6;
+}
+.footer-social a{
+    color:#e6e6e6;
+    font-size: 24px;
+    margin:0px 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-social a:hover{
+    color:aqua;
+    transition: color 0.3s;
+}
+
