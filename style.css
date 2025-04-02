@@ -99,3 +99,24 @@ nav a:hover{
     color:#e6e6e6;
     text-decoration: none;
 }
+.section-content{
+    background-color: rgb(255,255,255,0.05);
+    border-radius: 8px;
+    padding:20px;
+    margin:60px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    
+}
+.section-content h2{
+    font-size: 24px;
+    color:#e6e6e6;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e6e6e6;
+    display:inline;
+}
+.section-content p{
+    font-size: 18px;
+    color:#e6e6e6;
+    line-height: 1.6;
+}
