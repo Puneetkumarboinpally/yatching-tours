@@ -81,6 +81,21 @@ nav a:hover{
     position:relative;
     z-index:1;
 }
-.header-btn{
+.header-btn button{
+    font-size:16px;
+    border:2px solid #b0b0b8;
+    background-color: rgba(0,0,0,0.15);
+    padding: 15px 30px;
+    border-radius:3px;
     
+}
+
+.header-btn button:hover{
+    border:3px solid #e6e6e6;
+    transition: 0.15s;
+    font-size: 18px;
+}
+.header-btn a{
+    color:#e6e6e6;
+    text-decoration: none;
 }
