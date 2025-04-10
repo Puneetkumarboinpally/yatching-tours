@@ -177,6 +177,9 @@ footer{
 .gallery-content{
     margin-top: 50px;
 }
+.gallery-content h2{
+    padding-left: 15px;
+}
 .gallery{
     display:grid;
     grid-template-columns:  1fr 1fr 1fr;
@@ -288,14 +291,17 @@ figcaption{
 .tours-main-div{
     margin-top:50px;
 }
+.th2{
+    padding-left: 15px;
+}
 .main-package{
     display:flex;
     justify-content:space-between;
     background-color: rgba(255,255,255,0.05);
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
     border-radius: 8px;
-    padding:20px;
-    margin:30px;
-    margin-top:-10px;
+    padding:30px;
+    margin:30px 120px;
 }
 .container img{
     width:350px;
@@ -318,4 +324,23 @@ figcaption{
 .container2 p{
     color:#e6e6e6;
     font-size: 18px;
+}
+
+/*pagination styles */
+
+.pagination{
+text-align: center;
+margin: 30px;
+}
+.page-btn{
+    color:#e6e6e6;
+    text-decoration: none;
+    font-size: 18px;
+    padding:10px;
+    margin:10px;
+}
+.page-btn:hover{
+   color:black;
+   background-color:#e6e6e6;
+   font-weight: bold;
 }
