@@ -1,48 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elegant Yatching Tours - Contacts Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css>
-    <style>
-        h1{
-            margin:50px;
-        }
-    </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+    href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css>
+  </head>
+  <body>
     <!--Navigation Section-->
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="tours.html">Tours</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>Elegant Yatching Tours - Contacts Page</h1>
-      <!--Footer Section-->  
-   <Footer>
-    <div class="footer-content">
-    <p>&copy; 2023 Elegant Yatching Tours, All rights reserved.</p>
-
-    <ul class="footer-links">
+      <ul>
         <li><a href="home.html">Home</a></li>
         <li><a href="tours.html">Tours</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <p class="footer-social">
-        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-    </p>
+      </ul>
+    </nav>
+
+    <!--form Section-->
+    <div class="form-main">
+      <h2>Contact Us</h2>
+      <form action="">
+        <div class="contact-info">
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Full Name"
+          />
+          <input
+            type=" email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            required
+          />
+        </div>
+        <div class="contact-info2">
+          <input
+            type="tel"
+            name="number"
+            id="number"
+            placeholder="Mobile Number"
+            required
+          />
+          <select for="subject">
+            <option value="">Please Select a subject</option>
+            <option value="general inquiry">General Inquiry</option>
+            <option value="technical support">Technical Support</option>
+            <option value="booking issue">Booking Issue</option>
+            <option value="billing question">Billing Question</option>
+          </select>
+        </div>
+        <div class="message-box">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Please Enter your Message Here"
+            cols="4"
+          >
+          Please Enter your Message Here
+          </textarea>
+        </div>
+        <div class="news">
+          <input
+            type="checkbox"
+            id="newsletter"
+            name="newsletter"
+            name="newsletter"
+          />
+          <label for="newsletter">Subscribe to Newsletter</label>
+        </div>
+        <div class="header-btn">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
     </div>
-   </Footer>
-</body>
+
+    <!--Footer Section-->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2023 Elegant Yatching Tours, All rights reserved.</p>
+
+        <ul class="footer-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="footer-social">
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
